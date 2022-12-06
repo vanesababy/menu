@@ -1,0 +1,35 @@
+.logo{
+    margin:0px 30px;
+    background: rgba(161, 168, 174, 0.316);
+  
+   height: 620px;
+}
+.marca h1{
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: -3px -3px 3px hsla(240, 100%, 47%, 0.282), 3px -3px 3px #ffffff, -3px 3px 3px #6f6fc9a0, 3px 3px 3px #ffffff;
+     
+  
+   
+}
+.marca img{
+    
+    width: 1200px;
+    height: 450px;
+    animation: movimiento1 2.5s infinite ;
+    
+}
+@keyframes movimiento1 {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+    
+}

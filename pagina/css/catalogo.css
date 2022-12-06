@@ -1,0 +1,74 @@
+.catalogo .contenedor{
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background: url(/img/fondomapa.png) no-repeat;
+    background-attachment:fixed;
+	background-size:cover;
+    width: 100%;
+    height: 100%; 
+   
+
+}   
+.col h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+.carousel{
+    align-items: center;
+}
+.carousel-item h2{
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.carousel-item p{
+    color: rgba(180, 191, 211, 0.719);
+    margin: 7px 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+
+}
+/* matetialize estilos */
+.carousel{
+    min-height: 500px;
+}
+
+.carousel .carousel-item {
+    display:flex;
+
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+   
+    width: 500px;
+    height:500px ;
+
+}
+.carousel .carousel-item img{
+  
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+    position:absolute ;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+
+}
